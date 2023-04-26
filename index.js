@@ -8,4 +8,5 @@ container.style.display = 'none'
 button.addEventListener('click', () => {
     container.style.display = 'block'
     button.style.display = 'none'
+    Html.style.height = 'auto'
 })
