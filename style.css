@@ -1,0 +1,76 @@
+html{
+    background-image: linear-gradient(rgba(196, 196, 233, 0.5), rgba(228, 228, 200, 0)),url('./img/lvg_04_641_11000_b_2_xl.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+ol, ul {
+    list-style: none;
+  }
+
+body{
+
+    font-family: Caveat;
+    color: rgb(228, 29, 29);
+    font-size: 2rem;
+  
+}
+
+.wrapper{
+    padding: 1vw;
+    align-items: center;
+    text-align: center;
+    
+}
+.picture-cont{
+    z-index: 1;
+    margin-top: 50px;
+    display: block;
+    position: relative;
+    max-width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #f8f8f800;
+}
+.img1{
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: contain;
+    }
+.img2{
+    z-index: 0;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 40%;
+    position: absolute;
+    object-fit: contain;
+}
+
+h1{
+    padding: 0 10px;
+}
+.picture-cont{}
+
+
+.list{
+    color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list li a{
+    color: red;
+}
