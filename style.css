@@ -1,6 +1,6 @@
 html{
-    height: 100vh;
-    background-image: linear-gradient(rgba(196, 196, 233, 0.89), rgba(228, 228, 200, 0)),url('./img/lvg_04_641_11000_b_2_xl.jpg');
+    height: 100%;
+    background-image: linear-gradient(rgb(31, 31, 46), rgba(228, 228, 200, 0)),url('./img/lvg_04_641_11000_b_2_xl.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,7 +15,7 @@ body{
     font-weight: 600;
     font-family: Caveat;
     color: rgb(228, 29, 29);
-    font-size: 2.5rem;
+    font-size: 2rem;
   
 }
 
