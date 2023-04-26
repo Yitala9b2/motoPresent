@@ -11,6 +11,11 @@ ol, ul {
     list-style: none;
   }
 
+  h1, p {
+    backdrop-filter: blur(2px);;
+    margin: 0;
+    padding-top: 20px;
+  }
 body{
     font-weight: 600;
     font-family: Caveat;
@@ -77,6 +82,8 @@ h1{
 }
 
 .presentButton{
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-family: Caveat;
     padding: 10px;
     background-color: white;
