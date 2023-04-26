@@ -16,10 +16,13 @@ ol, ul {
     margin: 0;
     padding-top: 20px;
   }
+  h1{
+    color: #c50e0e;
+  }
 body{
     font-weight: 600;
     font-family: Caveat;
-    color: rgb(228, 29, 29);
+    color: white;
     font-size: 2rem;
   
 }
