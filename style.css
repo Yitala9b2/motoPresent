@@ -73,14 +73,14 @@ h1{
     margin: 0;
     padding: 0;
     list-style-type:none;
-
+    backdrop-filter: blur(2px);;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-.list li a{
+.list li a, .present a{
     color: red;
 }
 
@@ -104,4 +104,12 @@ h1{
 
 .present{
     margin-top: 40px;
+}
+
+.link{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
 }
